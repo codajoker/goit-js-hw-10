@@ -35,7 +35,7 @@ function renderManyCountrys(countrys) {
   const markup = countrys
     .map(({ flags, name }) => {
       return `<li class="item">
-      <img src="${flags.png}">
+      <img src="${flags.svg}">
                   <p> ${name.official}</p></li>
                
                 `;
@@ -50,7 +50,7 @@ function renderCountrys(countrys) {
       console.log();
       return `<li class="country">
       <div class="item">
-      <img src="${flags.png}">
+      <img src="${flags.svg}">
               <h1> ${name.official}</h1>
               </div>
                   <p><b>Capital:</b>${capital}</p>
